@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_cat"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/signUp_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="33dp"
+        android:text="@string/signUp"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/signIn_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/signUp_button"
+        android:layout_alignBottom="@+id/signUp_button"
+        android:layout_alignParentRight="true"
+        android:text="@string/signIn"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/tagLine"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/locals"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_email"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/userName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_username"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+</RelativeLayout>

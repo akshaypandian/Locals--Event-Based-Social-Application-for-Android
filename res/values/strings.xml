@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Locals</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="signUp">Sign Up!</string>
+    <string name="signIn">Sign In!</string>
+    <string name="locals">Locals!</string>
+    <string name="tagLine">Find your nearby Happiness!!</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="name">Name</string>
+    <string name="names">Name:</string>
+    <string name="email">Email:</string>
+    <string name="username">User Name:</string>
+    <string name="passwords">Password:</string>
+    <string name="confirm">Confirm Password:</string>
+    <string name="submit">Submit</string>
+    <string name="location">Location:</string>
+    <string name="or">OR</string>
+    <string name="phoneLocation">Use phone\'s current location!</string>
+    <string name="search">Search!</string>
+    <string name="my_friends">My Friends!</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_events_detailed">EventsDetailedActivity</string>
+    <string name="description">Details:</string>
+    <string name="events_des">"Description: "</string>
+    <string name="going_detail">Going!</string>
+    <string name="event_date">"Event Date: "</string>
+    <string name="performers">"Performers: "</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+    <string name="title_activity_all_users">AllUsersActivity</string>
+    <string name="title_activity_friends">FriendsActivity</string>
+
+</resources>

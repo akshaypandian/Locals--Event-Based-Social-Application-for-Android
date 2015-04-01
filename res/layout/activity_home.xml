@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_layout_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_cat"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/location"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText_location"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_location"
+        android:layout_alignBottom="@+id/textView_location"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/textView_location"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_event_title_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_location"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="31dp"
+        android:text="@string/or" />
+
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_event_title_fragment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textColor="#ffffff"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/phoneLocation" />
+
+    <ImageView
+        android:id="@+id/imageView_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/see" />
+
+    <TextView
+        android:id="@+id/textView_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+         android:textColor="#ffffff"
+         android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imageView_search"
+        android:text="@string/search" />
+
+    <ImageView
+        android:id="@+id/imageView_friends"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView_search"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/textView_search"
+        android:src="@drawable/friendszoozoo" />
+
+    <TextView
+        android:id="@+id/textView_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_friends"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imageView_friends"
+        android:textColor="#ffffff"
+        android:text="@string/my_friends" />
+
+</RelativeLayout>
